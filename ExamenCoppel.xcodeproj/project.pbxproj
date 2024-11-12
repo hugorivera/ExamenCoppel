@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EF986AFE2CE3040C0035983B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF986ADF2CE3040A0035983B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF986AE62CE3040A0035983B;
+			remoteInfo = ExamenCoppel;
+		};
+		EF986B082CE3040C0035983B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF986ADF2CE3040A0035983B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF986AE62CE3040A0035983B;
+			remoteInfo = ExamenCoppel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF986AE72CE3040A0035983B /* ExamenCoppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenCoppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF986AFD2CE3040C0035983B /* ExamenCoppelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenCoppelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF986B072CE3040C0035983B /* ExamenCoppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenCoppelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EF986B0F2CE3040C0035983B /* Exceptions for "ExamenCoppel" folder in "ExamenCoppel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EF986AE62CE3040A0035983B /* ExamenCoppel */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF986AE92CE3040A0035983B /* ExamenCoppel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF986B0F2CE3040C0035983B /* Exceptions for "ExamenCoppel" folder in "ExamenCoppel" target */,
+			);
+			path = ExamenCoppel;
+			sourceTree = "<group>";
+		};
+		EF986B002CE3040C0035983B /* ExamenCoppelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExamenCoppelTests;
+			sourceTree = "<group>";
+		};
+		EF986B0A2CE3040C0035983B /* ExamenCoppelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExamenCoppelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF986AE42CE3040A0035983B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986AFA2CE3040C0035983B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986B042CE3040C0035983B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF986ADE2CE3040A0035983B = {
+			isa = PBXGroup;
+			children = (
+				EF986AE92CE3040A0035983B /* ExamenCoppel */,
+				EF986B002CE3040C0035983B /* ExamenCoppelTests */,
+				EF986B0A2CE3040C0035983B /* ExamenCoppelUITests */,
+				EF986AE82CE3040A0035983B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF986AE82CE3040A0035983B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF986AE72CE3040A0035983B /* ExamenCoppel.app */,
+				EF986AFD2CE3040C0035983B /* ExamenCoppelTests.xctest */,
+				EF986B072CE3040C0035983B /* ExamenCoppelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF986AE62CE3040A0035983B /* ExamenCoppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF986B102CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppel" */;
+			buildPhases = (
+				EF986AE32CE3040A0035983B /* Sources */,
+				EF986AE42CE3040A0035983B /* Frameworks */,
+				EF986AE52CE3040A0035983B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF986AE92CE3040A0035983B /* ExamenCoppel */,
+			);
+			name = ExamenCoppel;
+			packageProductDependencies = (
+			);
+			productName = ExamenCoppel;
+			productReference = EF986AE72CE3040A0035983B /* ExamenCoppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF986AFC2CE3040C0035983B /* ExamenCoppelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF986B152CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppelTests" */;
+			buildPhases = (
+				EF986AF92CE3040C0035983B /* Sources */,
+				EF986AFA2CE3040C0035983B /* Frameworks */,
+				EF986AFB2CE3040C0035983B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF986AFF2CE3040C0035983B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF986B002CE3040C0035983B /* ExamenCoppelTests */,
+			);
+			name = ExamenCoppelTests;
+			packageProductDependencies = (
+			);
+			productName = ExamenCoppelTests;
+			productReference = EF986AFD2CE3040C0035983B /* ExamenCoppelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF986B062CE3040C0035983B /* ExamenCoppelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF986B182CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppelUITests" */;
+			buildPhases = (
+				EF986B032CE3040C0035983B /* Sources */,
+				EF986B042CE3040C0035983B /* Frameworks */,
+				EF986B052CE3040C0035983B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF986B092CE3040C0035983B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF986B0A2CE3040C0035983B /* ExamenCoppelUITests */,
+			);
+			name = ExamenCoppelUITests;
+			packageProductDependencies = (
+			);
+			productName = ExamenCoppelUITests;
+			productReference = EF986B072CE3040C0035983B /* ExamenCoppelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF986ADF2CE3040A0035983B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EF986AE62CE3040A0035983B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EF986AFC2CE3040C0035983B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EF986AE62CE3040A0035983B;
+					};
+					EF986B062CE3040C0035983B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EF986AE62CE3040A0035983B;
+					};
+				};
+			};
+			buildConfigurationList = EF986AE22CE3040A0035983B /* Build configuration list for PBXProject "ExamenCoppel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF986ADE2CE3040A0035983B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF986AE82CE3040A0035983B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF986AE62CE3040A0035983B /* ExamenCoppel */,
+				EF986AFC2CE3040C0035983B /* ExamenCoppelTests */,
+				EF986B062CE3040C0035983B /* ExamenCoppelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF986AE52CE3040A0035983B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986AFB2CE3040C0035983B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986B052CE3040C0035983B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF986AE32CE3040A0035983B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986AF92CE3040C0035983B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF986B032CE3040C0035983B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF986AFF2CE3040C0035983B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF986AE62CE3040A0035983B /* ExamenCoppel */;
+			targetProxy = EF986AFE2CE3040C0035983B /* PBXContainerItemProxy */;
+		};
+		EF986B092CE3040C0035983B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF986AE62CE3040A0035983B /* ExamenCoppel */;
+			targetProxy = EF986B082CE3040C0035983B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF986B112CE3040C0035983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExamenCoppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF986B122CE3040C0035983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExamenCoppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF986B132CE3040C0035983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF986B142CE3040C0035983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF986B162CE3040C0035983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenCoppel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamenCoppel";
+			};
+			name = Debug;
+		};
+		EF986B172CE3040C0035983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenCoppel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamenCoppel";
+			};
+			name = Release;
+		};
+		EF986B192CE3040C0035983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenCoppel;
+			};
+			name = Debug;
+		};
+		EF986B1A2CE3040C0035983B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugorivera.ExamenCoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenCoppel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF986AE22CE3040A0035983B /* Build configuration list for PBXProject "ExamenCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF986B132CE3040C0035983B /* Debug */,
+				EF986B142CE3040C0035983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF986B102CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF986B112CE3040C0035983B /* Debug */,
+				EF986B122CE3040C0035983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF986B152CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF986B162CE3040C0035983B /* Debug */,
+				EF986B172CE3040C0035983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF986B182CE3040C0035983B /* Build configuration list for PBXNativeTarget "ExamenCoppelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF986B192CE3040C0035983B /* Debug */,
+				EF986B1A2CE3040C0035983B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF986ADF2CE3040A0035983B /* Project object */;
+}
